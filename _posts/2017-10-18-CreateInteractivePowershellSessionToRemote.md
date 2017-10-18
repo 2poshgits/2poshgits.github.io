@@ -12,7 +12,7 @@ Enter-PSSession -ComputerName "MyServer.MyDomain.Com"
 
 Once in the session, the remote computer name will show at the prompt:
 
-```powershell
+```
 [MyServer.MyDomain.Com]: PS C:\Users\acarlm\Documents>
 ```
 
