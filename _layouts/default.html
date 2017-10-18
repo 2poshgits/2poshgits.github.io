@@ -13,7 +13,7 @@
 
     <header>
       <div class="container">
-        <h1><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">
@@ -24,6 +24,9 @@
     <div class="container">
       <section id="main_content">
         {{ content }}
+      </section>
+      <section id="footer">
+        <a href="/">Return to Home</a>
       </section>
     </div>
 
