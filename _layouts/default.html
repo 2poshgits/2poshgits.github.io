@@ -25,7 +25,9 @@
       <section id="main_content">
         {{ content }}
       </section>
-      <footer style="border-top: 1px dashed #b5e853;width:100%">
+    </div>
+    <footer style="border-top: 1px dashed #b5e853;width:100%">
+      <div class="container">
         <a href="/">Return to Home</a>
         <h2>Other Posts to try</h2>
         <ul>
@@ -35,8 +37,8 @@
             </li>
           {% endfor %}
         </ul>
-      </footer>
-    </div>
+      </div>
+    </footer>
 
     {% if site.google_analytics %}
       <script type="text/javascript">
