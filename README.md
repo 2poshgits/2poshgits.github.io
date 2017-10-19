@@ -1,6 +1,7 @@
 ---
-layout: home
+layout:home
 ---
+
 # Hello
 
 ## Here are some posts
