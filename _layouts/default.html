@@ -12,7 +12,7 @@
   <body>
 
     <header>
-      <div class="container">
+      <div class="container" style="max-width:1000px">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
@@ -21,13 +21,13 @@
       </div>
     </header>
 
-    <div class="container" style="max-width:1200px">
+    <div class="container" style="max-width:1000px">
       <section id="main_content">
         {{ content }}
       </section>
     </div>
     <footer style="border-top: 1px dashed #b5e853;width:100%">
-      <div class="container">
+      <div class="container" style="max-width:1000px">
         <a href="/">Return to Home</a>
         <h2>Other Posts to try</h2>
         <ul>
