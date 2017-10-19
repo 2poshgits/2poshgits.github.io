@@ -1,3 +1,8 @@
+---
+title: "Welcome to 2 PoSH gits!"
+layout: home
+---
+
 # Hello
 
 ## Here are some posts
