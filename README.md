@@ -1,7 +1,3 @@
----
-title: "Welcome to 2 PoSH gits!"
----
-
 # Hello
 
 ## Here are some posts
