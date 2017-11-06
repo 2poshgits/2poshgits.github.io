@@ -26,11 +26,14 @@ This started to get a little tricky to manage and track as I was dealing with a 
 
 So I turned to Google; In my searches, I found `Compare-Object`
 
-Compare-Object allows you to provide 2 different lists of things, it will then tell you which  thing is missing from which list, using operators of ``
+Compare-Object allows you to provide 2 different lists of things, it will then tell you which  thing is missing from which list, using nomenclature of `<=` and `=>`.
 
-So my above reduced to:
+So my above code reduced to:
 
 ```powershell
+$list1 = Get-ChildItems "location1" -Recursive
+$list2 = Get-ChildItems "location2" -Recursive
+
 $items = Compare-Object -ReferenceObject $list1 -DifferenceObject $list2
 ```
 
