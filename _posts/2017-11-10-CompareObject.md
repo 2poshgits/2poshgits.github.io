@@ -1,6 +1,7 @@
 ---
 title: "Using Compare-Object and not nested foreach"
 catagories: ["PowerShell"]
+---
 
 # Using Compare-Object and not a nested foreach
 
